@@ -9,7 +9,13 @@ jobs:
       - run: echo "Workflow triggered manually!"
 
   second-job:
-    runs-on: ubunut-latest
+    runs-on: ubuntu-latest
     steps:
       - name: second-step
         run: echo "this is second step 22"
+
+  third-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: third-step
+        run: echo "this is third step"
