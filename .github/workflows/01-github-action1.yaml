@@ -12,4 +12,4 @@ jobs:
     runs-on: ubunut-latest
     steps:
       - name: second-step
-        run: echo "this is second step"
+        run: echo "this is second step 22"
