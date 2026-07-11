@@ -1,15 +1,16 @@
 name: Manual Echo
 
-on: push
+on:
+  push
 
 jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Workflow triggered manually!"
+      - run: echo "Workflow triggered!"
 
   second-job:
-    runs-on: ubunut-latest
+    runs-on: ubuntu-latest
     steps:
       - name: second-step
-        run: echo "this is second step1"
+        run: echo "This is second step"
