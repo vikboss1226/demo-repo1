@@ -1,9 +1,10 @@
-name: github-action-test
-on: push
+name: Manual Echo
+
+on:
+  push:
 
 jobs:
-  first:
+  first-job:
     runs-on: ubuntu-latest
-  steps:
-    - name: print statemet
-      run: echo "hell world, my first job"
+    steps:
+      - run: echo "Workflow triggered manually!"
